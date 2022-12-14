@@ -1,0 +1,225 @@
+html, body {
+background-image: url('bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+.container_cadastro {
+    margin-top: -100px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_conta {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: block;
+    width: 340px;
+    height: 320px;
+}
+
+.botao_conta {
+    border: white;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+.entrar {
+    color: aliceblue;
+    border: 0 none;
+    outline: 0;
+    background: transparent;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+.checkbox {
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+h3 {
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cpf_style::placeholder {
+    color:rgba(255, 255, 255, 0.311);
+}
+
+.cpf_style:focus, select:focus {
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.senha::placeholder {
+    text-align: center;
+    color:rgb(178, 178, 178) ;
+}
+
+.senha:focus, select:focus {
+    text-align: center;
+    color: #13496E;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+
+.senha {
+    text-align: center;
+    color: #13496E;
+    border: white;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+.cpf_style {
+    color: white;
+    background: #13496E;
+    text-align: center;
+    border: white;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+
+.botao_conta_azul {
+    background: #13496E;
+    border-color: #13496E;
+    color: aliceblue;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+
+div {
+    display: inline-block;
+}
+
+.logo {
+    margin-left: 30%;
+}
+
+label {
+    font-weight: bold;
+    position:relative;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0 -5px 60px ;
+}
+
+.cadastro {
+    color: white;
+    background: #134a6e8a;
+    text-align: center;
+    border: white;
+    position: relative;
+    width: 280px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.016em;
+    border-width: 0.5px;
+}
+
+.cadastro:focus, select:focus {
+    background: #13496E;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.logo_cadastro {
+    position: relative;
+    padding: 15px
+}
